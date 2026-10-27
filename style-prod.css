@@ -190,7 +190,7 @@ html, body, h1, h2, h3, p, li, a, button { hyphens: none; }
   .s-bar { gap: 10px; }
   .s-bar__brand { font-size: .92rem; overflow: hidden; text-overflow: ellipsis; }
   .s-bar .s-btn--sm { white-space: nowrap; font-size: .78rem; padding: 0 .8em; flex-shrink: 0; }
-  @media (max-width: 400px) { .s-bar__brand { font-size: .8rem; } .s-bar .s-btn--sm { font-size: .72rem; } }
+  @media (max-width: 400px) { .s-bar__brand { font-size: .85rem; white-space: normal; line-height: 1.15; overflow: visible; } .s-bar .s-btn--sm { font-size: .72rem; } }
   .s-widget { padding: 18px; }
   .s-steps { grid-template-columns: 1fr; }
   .s-photos { grid-template-columns: 1fr 1fr; }
